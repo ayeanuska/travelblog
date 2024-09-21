@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* global message */
+.global {
+  background: skyblue;
+}
+.global > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* nav bar */
+/* hero section */
+/* latest post section */
+/* Reccomendation */
+/* subscribe section */
+/* footer */
