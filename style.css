@@ -78,6 +78,12 @@ header ul li:hover {
 }
 
 /* hero section */
+.hero {
+  background: url(./asests/img/hero.jpg) no-repeat center;
+  background-size: cover;
+  height: 60vh;
+}
+
 /* latest post section */
 /* Reccomendation */
 /* subscribe section */
