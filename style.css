@@ -48,7 +48,7 @@ header > div {
   border-radius: 50%;
 
   display: flex;
-  justify-self: center;
+  justify-content: center;
   align-items: center;
 }
 
@@ -59,7 +59,7 @@ header > div {
   border-radius: 50%;
 
   display: flex;
-  justify-self: center;
+  justify-content: center;
   align-items: center;
 }
 
@@ -74,7 +74,6 @@ header ul li {
 header ul li:hover {
   cursor: pointer;
   background-color: brown;
-  font-size: 2rem;
   transform: scale(1.5);
 }
 
