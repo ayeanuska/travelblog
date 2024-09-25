@@ -2,7 +2,7 @@
   --primary: rgb(1, 1, 133);
   --secondary: skyblue;
   --tertiary: orangered;
-  --shadow: 5px 5px 10px 5px;
+  --shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.414);
 }
 
 body {
@@ -118,8 +118,21 @@ header ul li:hover {
 article {
   display: flex;
   justify-content: space-between;
+  gap: 16px;
+  box-shadow: var(--shadow);
+  background: rgba(255, 255, 255, 0.35);
+
+  border-radius: 10px;
+  margin-bottom: 12px;
+  padding: 20px 16px;
 }
 
+article .art-img {
+  width: 350px;
+}
+article.btn {
+  float: right;
+}
 .side-links {
   background: pink;
   width: 34%;
