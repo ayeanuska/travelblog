@@ -2,6 +2,7 @@
   --primary: rgb(1, 1, 133);
   --secondary: skyblue;
   --tertiary: orangered;
+  --shadow: 5px 5px 10px 5px;
 }
 
 body {
@@ -103,6 +104,35 @@ header ul li:hover {
   width: 100%;
 }
 /* latest post section */
+
+.latest {
+  background: url(asests/bbg.jpg) no-repeat center;
+}
+.main {
+  display: flex;
+}
+.articles {
+  background-color: rgb(192, 192, 245);
+  width: 66%;
+}
+article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-links {
+  background: pink;
+  width: 34%;
+}
+
 /* Reccomendation */
 /* subscribe section */
 /* footer */
+
+footer {
+  background: var(--primary);
+  color: white;
+  padding: 64px;
+  text-align: center;
+  margin-top: 30px;
+}
