@@ -168,6 +168,27 @@ article .btn {
 }
 
 /* Reccomendation */
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.card {
+  width: 350px;
+  box-shadow: var(--shadow);
+  padding-bottom: 32px;
+  border-radius: 12px;
+  flex-grow: 1;
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+
+.card .btn {
+  width: 100%;
+}
+
 /* subscribe section */
 /* footer */
 
