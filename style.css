@@ -2,7 +2,7 @@
   --primary: rgb(1, 1, 133);
   --secondary: skyblue;
   --tertiary: orangered;
-  --shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.414);
+  --shadow: 5px 5px 10px 5px rgba(219, 219, 219, 0.414);
 }
 
 body {
@@ -15,6 +15,18 @@ body {
 .container {
   width: 80%;
   margin: auto;
+}
+
+.btn {
+  background: var(--secondary);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 
 /* global message */
@@ -130,9 +142,10 @@ article {
 article .art-img {
   width: 350px;
 }
-article.btn {
+article .btn {
   float: right;
 }
+
 .side-links {
   background: pink;
   width: 34%;
