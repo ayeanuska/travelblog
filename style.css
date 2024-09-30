@@ -31,7 +31,7 @@ body {
 
 /* global message */
 .global {
-  background: var(--secondarys);
+  background: var(--secondary);
 }
 .global > div {
   display: flex;
@@ -94,7 +94,7 @@ header ul li:hover {
 .hero {
   background: url(./asests/img/hero.jpg) no-repeat center;
   background-size: cover;
-  height: 60vh;
+  height: 75vh;
 
   display: flex;
   justify-content: center;
@@ -105,7 +105,7 @@ header ul li:hover {
   background-color: rgba(0, 0, 0, 0.324);
   color: white;
 
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -119,12 +119,15 @@ header ul li:hover {
 
 .latest {
   background: url(asests/bbg.jpg) no-repeat center;
+  background-size: cover;
+  padding: 0.5rem 0;
 }
 .main {
   display: flex;
+  gap: 1rem;
 }
 .articles {
-  background-color: rgb(192, 192, 245);
+  background-color: rgba(212, 201, 146, 0.901);
   width: 66%;
 }
 article {
@@ -147,8 +150,21 @@ article .btn {
 }
 
 .side-links {
-  background: pink;
   width: 34%;
+}
+
+.country {
+  background: rgba(212, 201, 146, 0.901);
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+
+.date {
+  background: rgba(212, 201, 146, 0.901);
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 32px;
 }
 
 /* Reccomendation */
@@ -160,5 +176,4 @@ footer {
   color: white;
   padding: 64px;
   text-align: center;
-  margin-top: 30px;
 }
