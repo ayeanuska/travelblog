@@ -1,7 +1,7 @@
 :root {
   --primary: rgb(1, 1, 133);
   --secondary: skyblue;
-  --tertiary: orangered;
+  --tertiary: rgba(206, 240, 170, 0.891);
   --shadow: 5px 5px 10px 5px rgba(219, 219, 219, 0.414);
 }
 
@@ -190,6 +190,23 @@ article .btn {
 }
 
 /* subscribe section */
+
+.subs {
+  background: var(--tertiary);
+  margin-top: 2rem;
+  padding: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subs input {
+  line-height: 30px;
+  padding: 5px 10px;
+  border: 1px solid rgba(128, 128, 128, 0.355);
+  border-radius: 5px;
+}
 /* footer */
 
 footer {
