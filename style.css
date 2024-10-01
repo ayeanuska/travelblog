@@ -36,6 +36,11 @@ body {
 .global > div {
   display: flex;
   justify-content: space-between;
+  font-size: 3vh;
+}
+
+.global > div a {
+  text-decoration: none;
 }
 
 /* nav bar */
